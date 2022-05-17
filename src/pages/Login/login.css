@@ -1,0 +1,157 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+    background-color: #121214;
+    color: white;
+}
+
+
+
+.login-center { 
+    background-color: #29292E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+.login-center h1 {
+    font-family: 'Roboto Slab';
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.login-center h4 {
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #e1e1e6;
+}
+
+.login-loginInputInicio {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: black;
+    border-radius: 5px;
+    padding: 3px;
+    width: 48%;
+    height: 50px;
+}
+
+
+.login-loginInputInicio input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #E1E1E6;
+    border: none;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login-loginInputFim {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: black;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 5px;
+    width: 48%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+
+
+.login-loginInputFim input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color:  #E1E1E6;
+    border: none;
+    font-size: 11px;
+    margin-left: 11px;
+    margin-right: 10px;
+}
+
+#inicio:before {
+    content: "Horario de inicio: ";
+    padding-right: 10px;
+}
+
+#fim:before {
+    content: "Horario de saida: ";
+    padding-right: 10px;
+}
+
+/* #fim:after {
+    content: "";
+    background: url("https://pic.onlinewebfonts.com/svg/img_421931.png") ;
+    padding-right: 10px;
+} */
+
+.login-center button {
+    width: 48%;
+    background-color: #202024;
+    color: #EFF2F5;
+    font-weight: 800;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+    border: none;
+
+    outline-width: 0;
+}
+
+.login-center button:hover {
+    background-color: #121214;
+    color: #EFF2F5;
+    cursor: pointer;
+}
+
+#erro{
+    font-size: 12px;
+    border:1px solid white;
+    padding:3px;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: 0.5s ease-out;
+}
+#erro:hover{
+    transform: perspective(500px) translateZ(5px);
+}
+
+input::-webkit-calendar-picker-indicator{
+    background-color:white;
+    transform: scale(1.5);
+    cursor: pointer;
+    filter: invert(100%);
+    /* mix-blend-mode: multiply; */
+    
+
+}
+
+#result{
+    font-size:20px;
+    padding:15px;
+    border:1px solid #cccccc;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background-color: #cccccc;
+    color:black
+}
